@@ -1,0 +1,392 @@
+/*#region TYPOGRAPHY VARIABLES */
+@theme {
+    /*#region DESKTOP - 1920PX */
+
+    /*#region FONT SIZE */
+    --fs-d-h1: 36px;
+    --fs-d-h2: 30px;
+    --fs-d-h3: 24px;
+    --fs-d-h4: 20px;
+    --fs-d-h5: 18px;
+    --fs-d-h6: 16px;
+    --fs-d-p: 14px;
+    --fs-d-body: 12px;
+    --fs-d-body-xs: 10px;
+    /*#endregion FONT SIZE */
+
+    /*#region LINE HEIGHT */
+    --lh-d-h1: 48px;
+    --lh-d-h2: 38px;
+    --lh-d-h3: 36px;
+    --lh-d-h4: 28px;
+    --lh-d-h5: 28px;
+    --lh-d-h6: 26px;
+    --lh-d-p: 24px;
+    --lh-d-body: 20px;
+    --lh-d-body-xs: 16px;
+    /*#endregion LINE HEIGHT */
+
+    /*#region LETTER SPACING */
+    --ls-d-h1: -0.48px;
+    --ls-d-h2: -0.18px;
+    --ls-d-h3: -0.07px;
+    --ls-d-h4: 0px;
+    --ls-d-h5: 0.02px;
+    --ls-d-h6: 0.03px;
+    --ls-d-p: 0.04px;
+    --ls-d-body: 0.04px;
+    --ls-d-body-xs: 0.04px;
+    /*#endregion LETTER SPACING */
+
+    /*#region FONT WEIGHT */
+    --fw-d-h1: 500;
+    --fw-d-h2: 500;
+    --fw-d-h3: 500;
+    --fw-d-h4: 500;
+    --fw-d-h5: 500;
+    --fw-d-h6: 500;
+    --fw-d-p: 400;
+    --fw-d-body: 400;
+    --fw-d-body-xs: 400;
+    /*#endregion FONT WEIGHT */
+
+    /*#endregion DESKTOP - 1920PX */
+
+    /*#region TABLET - 768PX */
+
+    /*#region FONT SIZE */
+    --fs-t-h1: 30px;
+    --fs-t-h2: 26px;
+    --fs-t-h3: 22px;
+    --fs-t-h4: 18px;
+    --fs-t-h5: 16px;
+    --fs-t-h6: 14px;
+    --fs-t-p: 13px;
+    --fs-t-body: 12px;
+    --fs-t-body-xs: 10px;
+    /*#endregion FONT SIZE */
+
+    /*#region LINE HEIGHT */
+    --lh-t-h1: 42px;
+    --lh-t-h2: 32px;
+    --lh-t-h3: 30px;
+    --lh-t-h4: 26px;
+    --lh-t-h5: 24px;
+    --lh-t-h6: 22px;
+    --lh-t-p: 22px;
+    --lh-t-body: 20px;
+    --lh-t-body-xs: 16px;
+    /*#endregion LINE HEIGHT */
+
+    /*#region LETTER SPACING */
+    --ls-t-h1: -0.18px;
+    --ls-t-h2: -0.1px;
+    --ls-t-h3: -0.05px;
+    --ls-t-h4: 0px;
+    --ls-t-h5: 0.02px;
+    --ls-t-h6: 0.03px;
+    --ls-t-p: 0.04px;
+    --ls-t-body: 0.04px;
+    --ls-t-body-xs: 0.04px;
+    /*#endregion LETTER SPACING */
+
+    /*#region FONT WEIGHT */
+    --fw-t-h1: 500;
+    --fw-t-h2: 500;
+    --fw-t-h3: 500;
+    --fw-t-h4: 500;
+    --fw-t-h5: 500;
+    --fw-t-h6: 500;
+    --fw-t-p: 400;
+    --fw-t-body: 400;
+    --fw-t-body-xs: 400;
+    /*#endregion FONT WEIGHT */
+
+    /*#endregion TABLET - 768PX */
+
+    /*#region MOBILE - 430PX */
+
+    /*#region FONT SIZE */
+    --fs-m-h1: 24px;
+    --fs-m-h2: 22px;
+    --fs-m-h3: 20px;
+    --fs-m-h4: 18px;
+    --fs-m-h5: 16px;
+    --fs-m-h6: 14px;
+    --fs-m-p: 13px;
+    --fs-m-body: 12px;
+    --fs-m-body-xs: 10px;
+    /*#endregion FONT SIZE */
+
+    /*#region LINE HEIGHT */
+    --lh-m-h1: 36px;
+    --lh-m-h2: 30px;
+    --lh-m-h3: 28px;
+    --lh-m-h4: 26px;
+    --lh-m-h5: 24px;
+    --lh-m-h6: 22px;
+    --lh-m-p: 20px;
+    --lh-m-body: 18px;
+    --lh-m-body-xs: 16px;
+    /*#endregion LINE HEIGHT */
+
+    /*#region LETTER SPACING */
+    --ls-m-h1: -0.05px;
+    --ls-m-h2: -0.02px;
+    --ls-m-h3: 0px;
+    --ls-m-h4: 0.02px;
+    --ls-m-h5: 0.03px;
+    --ls-m-h6: 0.03px;
+    --ls-m-p: 0.04px;
+    --ls-m-body: 0.04px;
+    --ls-m-body-xs: 0.04px;
+    /*#endregion LETTER SPACING */
+
+    /*#region FONT WEIGHT */
+    --fw-m-h1: 500;
+    --fw-m-h2: 500;
+    --fw-m-h3: 500;
+    --fw-m-h4: 500;
+    --fw-m-h5: 500;
+    --fw-m-h6: 500;
+    --fw-m-p: 400;
+    --fw-m-body: 400;
+    --fw-m-body-xs: 400;
+    /*#endregion FONT WEIGHT */
+
+    /*#endregion MOBILE - 430PX */
+
+}
+/*#endregion TYPOGRAPHY VARIABLES */
+
+
+/*#endregion TYPOGRAPHY VARIABLES */
+
+/*#region DESKTOP BREAKPOINT */
+h1,
+.h1-text {
+    font-size: var(--fs-d-h1);
+    line-height: var(--lh-d-h1);
+    font-weight: var(--fw-d-h1);
+    letter-spacing: var(--ls-d-h1);
+}
+
+h2,
+.h2-text {
+    font-size: var(--fs-d-h2);
+    line-height: var(--lh-d-h2);
+    font-weight: var(--fw-d-h2);
+    letter-spacing: var(--ls-d-h2);
+}
+
+h3,
+.h3-text {
+    font-size: var(--fs-d-h3);
+    line-height: var(--lh-d-h3);
+    font-weight: var(--fw-d-h3);
+    letter-spacing: var(--ls-d-h3);
+}
+
+h4,
+.h4-text {
+    font-size: var(--fs-d-h4);
+    line-height: var(--lh-d-h4);
+    font-weight: var(--fw-d-h4);
+    letter-spacing: var(--ls-d-h4);
+}
+
+h5,
+.h5-text {
+    font-size: var(--fs-d-h5);
+    line-height: var(--lh-d-h5);
+    font-weight: var(--fw-d-h5);
+    letter-spacing: var(--ls-d-h5);
+}
+
+h6,
+.h6-text {
+    font-size: var(--fs-d-h6);
+    line-height: var(--lh-d-h6);
+    font-weight: var(--fw-d-h6);
+    letter-spacing: var(--ls-d-h6);
+}
+
+p,
+.p-text {
+    font-size: var(--fs-d-p);
+    line-height: var(--lh-d-p);
+    font-weight: var(--fw-d-p);
+    letter-spacing: var(--ls-d-p);
+}
+
+.body-text {
+    font-size: var(--fs-d-body);
+    line-height: var(--lh-d-body);
+    font-weight: var(--fw-d-body);
+    letter-spacing: var(--ls-d-body);
+}
+
+.body-xs-text {
+    font-size: var(--fs-d-body-xs);
+    line-height: var(--lh-d-body-xs);
+    font-weight: var(--fw-d-body-xs);
+    letter-spacing: var(--ls-d-body-xs);
+}
+
+/*#endregion DESKTOP BREAKPOINT */
+
+/*#region RESPONSIVE TYPOGRAPHY */
+
+/*#region TABLET BREAKPOINT */
+@media (max-width: 990px) {
+
+    h1,
+    .h1-text {
+        font-size: var(--fs-t-h1);
+        line-height: var(--lh-t-h1);
+        font-weight: var(--fw-t-h1);
+        letter-spacing: var(--ls-t-h1);
+    }
+
+    h2,
+    .h2-text {
+        font-size: var(--fs-t-h2);
+        line-height: var(--lh-t-h2);
+        font-weight: var(--fw-t-h2);
+        letter-spacing: var(--ls-t-h2);
+    }
+
+    h3,
+    .h3-text {
+        font-size: var(--fs-t-h3);
+        line-height: var(--lh-t-h3);
+        font-weight: var(--fw-t-h3);
+        letter-spacing: var(--ls-t-h3);
+    }
+
+    h4,
+    .h4-text {
+        font-size: var(--fs-t-h4);
+        line-height: var(--lh-t-h4);
+        font-weight: var(--fw-t-h4);
+        letter-spacing: var(--ls-t-h4);
+    }
+
+    h5,
+    .h5-text {
+        font-size: var(--fs-t-h5);
+        line-height: var(--lh-t-h5);
+        font-weight: var(--fw-t-h5);
+        letter-spacing: var(--ls-t-h5);
+    }
+
+    h6,
+    .h6-text {
+        font-size: var(--fs-t-h6);
+        line-height: var(--lh-t-h6);
+        font-weight: var(--fw-t-h6);
+        letter-spacing: var(--ls-t-h6);
+    }
+
+    p,
+    .p-text {
+        font-size: var(--fs-t-p);
+        line-height: var(--lh-t-p);
+        font-weight: var(--fw-t-p);
+        letter-spacing: var(--ls-t-p);
+    }
+
+    .body-text {
+        font-size: var(--fs-t-body);
+        line-height: var(--lh-t-body);
+        font-weight: var(--fw-t-body);
+        letter-spacing: var(--ls-t-body);
+    }
+
+    .body-xs-text {
+        font-size: var(--fs-t-body-xs);
+        line-height: var(--lh-t-body-xs);
+        font-weight: var(--fw-t-body-xs);
+        letter-spacing: var(--ls-t-body-xs);
+    }
+}
+
+/*#endregion TABLET BREAKPOINT */
+
+/*#region MOBILE BREAKPOINT */
+@media (max-width: 460px) {
+
+    h1,
+    .h1-text {
+        font-size: var(--fs-m-h1);
+        line-height: var(--lh-m-h1);
+        font-weight: var(--fw-m-h1);
+        letter-spacing: var(--ls-m-h1);
+    }
+
+    h2,
+    .h2-text {
+        font-size: var(--fs-m-h2);
+        line-height: var(--lh-m-h2);
+        font-weight: var(--fw-m-h2);
+        letter-spacing: var(--ls-m-h2);
+    }
+
+    h3,
+    .h3-text {
+        font-size: var(--fs-m-h3);
+        line-height: var(--lh-m-h3);
+        font-weight: var(--fw-m-h3);
+        letter-spacing: var(--ls-m-h3);
+    }
+
+    h4,
+    .h4-text {
+        font-size: var(--fs-m-h4);
+        line-height: var(--lh-m-h4);
+        font-weight: var(--fw-m-h4);
+        letter-spacing: var(--ls-m-h4);
+    }
+
+    h5,
+    .h5-text {
+        font-size: var(--fs-m-h5);
+        line-height: var(--lh-m-h5);
+        font-weight: var(--fw-m-h5);
+        letter-spacing: var(--ls-m-h5);
+    }
+
+    h6,
+    .h6-text {
+        font-size: var(--fs-m-h6);
+        line-height: var(--lh-m-h6);
+        font-weight: var(--fw-m-h6);
+        letter-spacing: var(--ls-m-h6);
+    }
+
+    p,
+    .p-text {
+        font-size: var(--fs-m-p);
+        line-height: var(--lh-m-p);
+        font-weight: var(--fw-m-p);
+        letter-spacing: var(--ls-m-p);
+    }
+
+    .body-text {
+        font-size: var(--fs-m-body);
+        line-height: var(--lh-m-body);
+        font-weight: var(--fw-m-body);
+        letter-spacing: var(--ls-m-body);
+    }
+
+    .body-xs-text {
+        font-size: var(--fs-m-body-xs);
+        line-height: var(--lh-m-body-xs);
+        font-weight: var(--fw-m-body-xs);
+        letter-spacing: var(--ls-m-body-xs);
+    }
+}
+
+/*#endregion MOBILE BREAKPOINT */
+
+/*#endregion RESPONSIVE TYPOGRAPHY */

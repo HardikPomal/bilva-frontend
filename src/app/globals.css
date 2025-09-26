@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import "./styles/fonts.css";
+@import "./styles/theme.css";
+@import "./styles/typography.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* Fonts */
+  font-family: "Bilva System", sans-serif;
+}
