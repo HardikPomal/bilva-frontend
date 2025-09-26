@@ -19,4 +19,11 @@
 body {
   /* Fonts */
   font-family: "Bilva System", sans-serif;
+  
 }
+
+/*#region BUTTON COMPONENT */
+button{
+  @apply flex gap-2 items-center cursor-pointer transition-all duration-300 ease-in-out disabled:opacity-60 active:scale-95 disabled:active:scale-100 disabled:hover:shadow-none disabled:cursor-not-allowed;
+}
+/*#endregion BUTTON COMPONENT */
