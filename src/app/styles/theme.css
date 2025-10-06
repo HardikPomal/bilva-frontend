@@ -1,173 +1,311 @@
 /*#region COLOR VARIABLES */
+
 @theme {
-    /*#region PRIMARY SHADES */
-    --color-primary-50: #F3F7FB;
-    --color-primary-100: #E3ECF6;
-    --color-primary-200: #C5DAF0;
-    --color-primary-300: #9EC3EA;
-    --color-primary-400: #6BA6E4;
-    --color-primary-500: #1E70C7;
-    --color-primary-600: #1068C6;
-    --color-primary-700: #0854A4;
-    --color-primary-800: #034081;
-    --color-primary-900: #002F65;
-    --color-primary-950: #002C5B;
-    /*#endregion PRIMARY SHADES */
+  /*#region PRIMARY SHADES */
+  --color-primary-50: #F3F7FB;
+  --color-primary-100: #E3ECF6;
+  --color-primary-200: #C5DAF0;
+  --color-primary-300: #9EC3EA;
+  --color-primary-400: #6BA6E4;
+  --color-primary-500: #1E70C7;
+  --color-primary-600: #1068C6;
+  --color-primary-700: #0854A4;
+  --color-primary-800: #034081;
+  --color-primary-900: #002F65;
+  --color-primary-950: #002C5B;
+  /*#endregion PRIMARY SHADES */
 
-    /*#region SECONDARY SHADES */
-    --color-secondary-50: #FDF4F0;
-    --color-secondary-100: #F7E4DB;
-    --color-secondary-200: #F0C9B5;
-    --color-secondary-300: #E5A88A;
-    --color-secondary-400: #D6835D;
-    --color-secondary-500: #C7521E;
-    --color-secondary-600: #A6401A;
-    --color-secondary-700: #843417;
-    --color-secondary-800: #662915;
-    --color-secondary-900: #4C1F10;
-    --color-secondary-950: #3B170D;
-    /*#endregion SECONDARY SHADES */
+  /*#region SECONDARY SHADES */
+  --color-secondary-50: #FDF4F0;
+  --color-secondary-100: #F7E4DB;
+  --color-secondary-200: #F0C9B5;
+  --color-secondary-300: #E5A88A;
+  --color-secondary-400: #D6835D;
+  --color-secondary-500: #C7521E;
+  --color-secondary-600: #A6401A;
+  --color-secondary-700: #843417;
+  --color-secondary-800: #662915;
+  --color-secondary-900: #4C1F10;
+  --color-secondary-950: #3B170D;
+  /*#endregion SECONDARY SHADES */
 
-    /*#region PENDING SHADES */
-    --color-pending-50: #FEFAF3;
-    --color-pending-100: #FBEED7;
-    --color-pending-200: #F6DCA9;
-    --color-pending-300: #EFC66E;
-    --color-pending-400: #E9AF39;
-    --color-pending-500: #C78A1E;
-    --color-pending-600: #A56D16;
-    --color-pending-700: #895914;
-    --color-pending-800: #6E4712;
-    --color-pending-900: #57370F;
-    --color-pending-950: #3F290C;
-    /*#endregion PENDING SHADES */
+  /*#region PENDING SHADES */
+  --color-pending-50: #FEFAF3;
+  --color-pending-100: #FBEED7;
+  --color-pending-200: #F6DCA9;
+  --color-pending-300: #EFC66E;
+  --color-pending-400: #E9AF39;
+  --color-pending-500: #C78A1E;
+  --color-pending-600: #A56D16;
+  --color-pending-700: #895914;
+  --color-pending-800: #6E4712;
+  --color-pending-900: #57370F;
+  --color-pending-950: #3F290C;
+  /*#endregion PENDING SHADES */
 
-    /*#region SUCCESS SHADES */
-    --color-success-50: #F3FAF6;
-    --color-success-100: #DFF3E9;
-    --color-success-200: #BDE8D2;
-    --color-success-300: #8ED8B5;
-    --color-success-400: #4FC98E;
-    --color-success-500: #1E9E5F;
-    --color-success-600: #168D54;
-    --color-success-700: #107B4A;
-    --color-success-800: #0A663C;
-    --color-success-900: #074E2F;
-    --color-success-950: #043A24;
-    /*#endregion SUCCESS SHADES */
+  /*#region SUCCESS SHADES */
+  --color-success-50: #F3FAF6;
+  --color-success-100: #DFF3E9;
+  --color-success-200: #BDE8D2;
+  --color-success-300: #8ED8B5;
+  --color-success-400: #4FC98E;
+  --color-success-500: #1E9E5F;
+  --color-success-600: #168D54;
+  --color-success-700: #107B4A;
+  --color-success-800: #0A663C;
+  --color-success-900: #074E2F;
+  --color-success-950: #043A24;
+  /*#endregion SUCCESS SHADES */
 
-    /*#region DANGER SHADES */
-    --color-danger-50: #FEF6F5;
-    --color-danger-100: #FDE8E6;
-    --color-danger-200: #F8C9C5;
-    --color-danger-300: #F19B94;
-    --color-danger-400: #E96E65;
-    --color-danger-500: #C62828;
-    --color-danger-600: #A82121;
-    --color-danger-700: #891B1B;
-    --color-danger-800: #6C1515;
-    --color-danger-900: #511010;
-    --color-danger-950: #3C0B0B;
-    /*#endregion DANGER SHADES */
+  /*#region DANGER SHADES */
+  --color-danger-50: #FEF6F5;
+  --color-danger-100: #FDE8E6;
+  --color-danger-200: #F8C9C5;
+  --color-danger-300: #F19B94;
+  --color-danger-400: #E96E65;
+  --color-danger-500: #C62828;
+  --color-danger-600: #A82121;
+  --color-danger-700: #891B1B;
+  --color-danger-800: #6C1515;
+  --color-danger-900: #511010;
+  --color-danger-950: #3C0B0B;
+  /*#endregion DANGER SHADES */
 
-    /*#region BASE SHADES */
-    --color-base-50: #FFFFFF;
-    --color-base-100: #F3F4F6;
-    --color-base-200: #E5E7EB;
-    --color-base-300: #D1D5DB;
-    --color-base-400: #9CA3AF;
-    --color-base-500: #6B7280;
-    --color-base-600: #4B5563;
-    --color-base-700: #374151;
-    --color-base-800: #1F2937;
-    --color-base-900: #111827;
-    --color-base-950: #0B0F1A;
-    /*#endregion BASE SHADES */
+  /*#region BASE SHADES */
+  --color-base-50: #FFFFFF;
+  --color-base-100: #F3F4F6;
+  --color-base-200: #E5E7EB;
+  --color-base-300: #D1D5DB;
+  --color-base-400: #9CA3AF;
+  --color-base-500: #6B7280;
+  --color-base-600: #4B5563;
+  --color-base-700: #374151;
+  --color-base-800: #1F2937;
+  --color-base-900: #111827;
+  --color-base-950: #0B0F1A;
+  /*#endregion BASE SHADES */
 
-        /*#region PRIMARY SHADES */
-    --color-dark-primary-50: #0A1E32;
-    --color-dark-primary-100: #0D2C4E;
-    --color-dark-primary-200: #104074;
-    --color-dark-primary-300: #11549C;
-    --color-dark-primary-400: #1068C6;
-    --color-dark-primary-500: #1E70C7;
-    --color-dark-primary-600: #64A6EB;
-    --color-dark-primary-700: #9AC3EE;
-    --color-dark-primary-800: #C3DAF2;
-    --color-dark-primary-900: #D9E5F5;
-    --color-dark-primary-950: #E6EFF8;
-    /*#endregion PRIMARY SHADES */
+  /*#region PRIMARY SHADES */
+  --color-dark-primary-50: #0A1E32;
+  --color-dark-primary-100: #0D2C4E;
+  --color-dark-primary-200: #104074;
+  --color-dark-primary-300: #11549C;
+  --color-dark-primary-400: #1068C6;
+  --color-dark-primary-500: #1E70C7;
+  --color-dark-primary-600: #64A6EB;
+  --color-dark-primary-700: #9AC3EE;
+  --color-dark-primary-800: #C3DAF2;
+  --color-dark-primary-900: #D9E5F5;
+  --color-dark-primary-950: #E6EFF8;
+  /*#endregion PRIMARY SHADES */
 
-    /*#region SECONDARY SHADES */
-    --color-dark-secondary-50: #1A0A05;
-    --color-dark-secondary-100: #2A1309;
-    --color-dark-secondary-200: #3F1C0B;
-    --color-dark-secondary-300: #55260F;
-    --color-dark-secondary-400: #6E3414;
-    --color-dark-secondary-500: #C7521E;
-    --color-dark-secondary-600: #E17F4A;
-    --color-dark-secondary-700: #F4A77C;
-    --color-dark-secondary-800: #F8C6A7;
-    --color-dark-secondary-900: #FBE2D5;
-    --color-dark-secondary-950: #FEF4ED;
-    /*#endregion SECONDARY SHADES */
+  /*#region SECONDARY SHADES */
+  --color-dark-secondary-50: #1A0A05;
+  --color-dark-secondary-100: #2A1309;
+  --color-dark-secondary-200: #3F1C0B;
+  --color-dark-secondary-300: #55260F;
+  --color-dark-secondary-400: #6E3414;
+  --color-dark-secondary-500: #C7521E;
+  --color-dark-secondary-600: #E17F4A;
+  --color-dark-secondary-700: #F4A77C;
+  --color-dark-secondary-800: #F8C6A7;
+  --color-dark-secondary-900: #FBE2D5;
+  --color-dark-secondary-950: #FEF4ED;
+  /*#endregion SECONDARY SHADES */
 
-    /*#region PENDING SHADES */
-    --color-dark-pending-50: #1E160B;
-    --color-dark-pending-100: #2E210C;
-    --color-dark-pending-200: #49330E;
-    --color-dark-pending-300: #6B480F;
-    --color-dark-pending-400: #8D5D12;
-    --color-dark-pending-500: #C78A1E;
-    --color-dark-pending-600: #E2B751;
-    --color-dark-pending-700: #EFD38D;
-    --color-dark-pending-800: #F6E5BD;
-    --color-dark-pending-900: #FBF3E1;
-    --color-dark-pending-950: #FEFAF4;
-    /*#endregion PENDING SHADES */
+  /*#region PENDING SHADES */
+  --color-dark-pending-50: #1E160B;
+  --color-dark-pending-100: #2E210C;
+  --color-dark-pending-200: #49330E;
+  --color-dark-pending-300: #6B480F;
+  --color-dark-pending-400: #8D5D12;
+  --color-dark-pending-500: #C78A1E;
+  --color-dark-pending-600: #E2B751;
+  --color-dark-pending-700: #EFD38D;
+  --color-dark-pending-800: #F6E5BD;
+  --color-dark-pending-900: #FBF3E1;
+  --color-dark-pending-950: #FEFAF4;
+  /*#endregion PENDING SHADES */
 
-    /*#region SUCCESS SHADES */
-    --color-dark-success-50: #061B11;
-    --color-dark-success-100: #0C2F20;
-    --color-dark-success-200: #124430;
-    --color-dark-success-300: #18603E;
-    --color-dark-success-400: #1D7A4B;
-    --color-dark-success-500: #1E9E5F;
-    --color-dark-success-600: #48C48A;
-    --color-dark-success-700: #81D9AD;
-    --color-dark-success-800: #B8EBD2;
-    --color-dark-success-900: #DCF7EA;
-    --color-dark-success-950: #F3FCF7;
-    /*#endregion SUCCESS SHADES */
+  /*#region SUCCESS SHADES */
+  --color-dark-success-50: #061B11;
+  --color-dark-success-100: #0C2F20;
+  --color-dark-success-200: #124430;
+  --color-dark-success-300: #18603E;
+  --color-dark-success-400: #1D7A4B;
+  --color-dark-success-500: #1E9E5F;
+  --color-dark-success-600: #48C48A;
+  --color-dark-success-700: #81D9AD;
+  --color-dark-success-800: #B8EBD2;
+  --color-dark-success-900: #DCF7EA;
+  --color-dark-success-950: #F3FCF7;
+  /*#endregion SUCCESS SHADES */
 
-    /*#region DANGER SHADES */
-    --color-dark-danger-50: #1A0A0A;
-    --color-dark-danger-100: #2A1010;
-    --color-dark-danger-200: #401515;
-    --color-dark-danger-300: #5D1A1A;
-    --color-dark-danger-400: #7A1F1F;
-    --color-dark-danger-500: #C62828;
-    --color-dark-danger-600: #EA5C5C;
-    --color-dark-danger-700: #F59595;
-    --color-dark-danger-800: #FAD2D2;
-    --color-dark-danger-900: #FEF0F0;
-    --color-dark-danger-950: #FFFAFA;
-    /*#endregion DANGER SHADES */
+  /*#region DANGER SHADES */
+  --color-dark-danger-50: #1A0A0A;
+  --color-dark-danger-100: #2A1010;
+  --color-dark-danger-200: #401515;
+  --color-dark-danger-300: #5D1A1A;
+  --color-dark-danger-400: #7A1F1F;
+  --color-dark-danger-500: #C62828;
+  --color-dark-danger-600: #EA5C5C;
+  --color-dark-danger-700: #F59595;
+  --color-dark-danger-800: #FAD2D2;
+  --color-dark-danger-900: #FEF0F0;
+  --color-dark-danger-950: #FFFAFA;
+  /*#endregion DANGER SHADES */
 
-    /*#region BASE SHADES */
-    --color-dark-base-50: #0B0F1A;
-    --color-dark-base-100: #111827;
-    --color-dark-base-200: #1F2937;
-    --color-dark-base-300: #374151;
-    --color-dark-base-400: #4B5563;
-    --color-dark-base-500: #6B7280;
-    --color-dark-base-600: #9CA3AF;
-    --color-dark-base-700: #D1D5DB;
-    --color-dark-base-800: #E5E7EB;
-    --color-dark-base-900: #F3F4F6;
-    --color-dark-base-950: #FFFFFF;
-    /*#endregion BASE SHADES */
+  /*#region BASE SHADES */
+  --color-dark-base-50: #0B0F1A;
+  --color-dark-base-100: #111827;
+  --color-dark-base-200: #1F2937;
+  --color-dark-base-300: #374151;
+  --color-dark-base-400: #4B5563;
+  --color-dark-base-500: #6B7280;
+  --color-dark-base-600: #9CA3AF;
+  --color-dark-base-700: #D1D5DB;
+  --color-dark-base-800: #E5E7EB;
+  --color-dark-base-900: #F3F4F6;
+  --color-dark-base-950: #FFFFFF;
+  /*#endregion BASE SHADES */
 }
 
 /*#endregion COLOR VARIABLES */
 
+:root {
+
+  --background: var(--color-base-50);
+  --foreground: var(--color-base-950);
+
+  /*#region ===========================     COMPONENT: INPUT FIELD     ============================ */
+  --input-label-default: var(--color-base-950);
+  --input-label-focus: var(--color-primary-500);
+  --input-label-error: var(--color-danger-700);
+  --input-label-success: var(--color-success-700);
+
+  --input-bg-default: var(--color-primary-50);
+  --input-bg-filled: var(--color-primary-200);
+  --input-bg-error: var(--color-danger-100);
+  --input-bg-success: var(--color-success-100);
+
+  --input-border-default: var(--color-primary-200);
+  --input-border-hover: var(--color-primary-700);
+  --input-border-filled: var(--color-primary-200);
+  --input-border-error: var(--color-danger-700);
+  --input-border-success: var(--color-success-700);
+
+  --input-placeholder-default: var(--color-base-700);
+  --input-placeholder-filled: var(--color-base-950);
+
+  --input-helper-text-default: var(--color-base-700);
+  --input-helper-text-error: var(--color-danger-700);
+  --input-helper-text-success: var(--color-success-700);
+  /*#endregion ===========================     COMPONENT: INPUT FIELD     ============================ */
+
+  /*#region ===========================     COMPONENT: BADGE     ============================ */
+  --badge-filled-bg-primary: var(--color-primary-500);
+  --badge-filled-bg-secondary: var(--color-secondary-500);
+  --badge-filled-bg-pending: var(--color-pending-500);
+  --badge-filled-bg-base: var(--color-base-950);
+  --badge-filled-bg-danger: var(--color-danger-500);
+  --badge-filled-bg-success: var(--color-success-500);
+
+  --badge-filled-label: var(--color-base-50);
+
+  --badge-duo-bg-primary: var(--color-primary-200);
+  --badge-duo-bg-secondary: var(--color-secondary-200);
+  --badge-duo-bg-pending: var(--color-pending-200);
+  --badge-duo-bg-base: var(--color-base-200);
+  --badge-duo-bg-danger: var(--color-danger-200);
+  --badge-duo-bg-success: var(--color-success-200);
+
+  --badge-duo-label-primary: var(--color-primary-800);
+  --badge-duo-label-secondary: var(--color-secondary-800);
+  --badge-duo-label-pending: var(--color-pending-800);
+  --badge-duo-label-base: var(--color-base-950);
+  --badge-duo-label-danger: var(--color-danger-800);
+  --badge-duo-label-success: var(--color-success-800);
+  /*#endregion ===========================     COMPONENT: BADGE     ============================ */
+
+  /*#region ===========================     COMPONENT: TOOLTIP     ============================ */
+  --tooltip-bg-default: var(--color-base-500);
+  --tooltip-bg-primary: var(--color-primary-600);
+  --tooltip-bg-secondary: var(--color-secondary-600);
+  --tooltip-bg-pending: var(--color-pending-600);
+  --tooltip-bg-success: var(--color-success-600);
+  --tooltip-bg-danger: var(--color-danger-600);
+  --tooltip-bg-base: var(--color-base-950);
+
+  --tooltip-label: var(--color-base-50);
+  /*#endregion ===========================     COMPONENT: TOOLTIP     ============================ */
+}
+
+
+.dark {
+
+  --background: var(--color-base-950);
+  --foreground: var(--color-base-50);
+
+  /*#region ===========================     COMPONENT: INPUT FIELD     ============================ */
+  --input-label-default: var(--color-dark-base-950);
+  --input-label-focus: var(--color-dark-primary-500);
+  --input-label-error: var(--color-dark-danger-700);
+  --input-label-success: var(--color-dark-success-700);
+
+  --input-bg-default: var(--color-dark-base-200);
+  --input-bg-filled: var(--color-dark-base-400);
+  --input-bg-error: var(--color-dark-danger-100);
+  --input-bg-success: var(--color-dark-success-100);
+
+  --input-border-default: var(--color-dark-base-300);
+  --input-border-hover: var(--color-dark-primary-700);
+  --input-border-filled: var(--color-dark-base-400);
+  --input-border-error: var(--color-dark-danger-700);
+  --input-border-success: var(--color-dark-success-700);
+
+  --input-placeholder-default: var(--color-dark-base-700);
+  --input-placeholder-filled: var(--color-dark-base-950);
+
+  --input-helper-text-default: var(--color-dark-base-700);
+  --input-helper-text-error: var(--color-dark-danger-700);
+  --input-helper-text-success: var(--color-dark-success-700);
+  /*#endregion ===========================     COMPONENT: INPUT FIELD     ============================ */
+
+  /*#region ===========================     COMPONENT: BADGE     ============================ */
+  --badge-filled-bg-primary: var(--color-dark-primary-500);
+  --badge-filled-bg-secondary: var(--color-dark-secondary-500);
+  --badge-filled-bg-pending: var(--color-dark-pending-500);
+  --badge-filled-bg-base: var(--color-dark-base-950);
+  --badge-filled-bg-danger: var(--color-dark-danger-500);
+  --badge-filled-bg-success: var(--color-dark-success-500);
+
+  --badge-filled-label: var(--color-dark-base-50);
+
+  --badge-duo-bg-primary: var(--color-dark-primary-200);
+  --badge-duo-bg-secondary: var(--color-dark-secondary-200);
+  --badge-duo-bg-pending: var(--color-dark-pending-200);
+  --badge-duo-bg-base: var(--color-dark-base-300);
+  --badge-duo-bg-danger: var(--color-dark-danger-200);
+  --badge-duo-bg-success: var(--color-dark-success-200);
+
+  --badge-duo-label-primary: var(--color-dark-primary-800);
+  --badge-duo-label-secondary: var(--color-dark-secondary-800);
+  --badge-duo-label-pending: var(--color-dark-pending-800);
+  --badge-duo-label-base: var(--color-dark-base-950);
+  --badge-duo-label-danger: var(--color-dark-danger-800);
+  --badge-duo-label-success: var(--color-dark-success-800);
+  /*#endregion ===========================     COMPONENT: BADGE     ============================ */
+
+  /*#region ===========================     COMPONENT: TOOLTIP     ============================ */
+  --tooltip-bg-default: var(--color-dark-base-500);
+  --tooltip-bg-primary: var(--color-dark-primary-600);
+  --tooltip-bg-secondary: var(--color-dark-secondary-600);
+  --tooltip-bg-pending: var(--color-dark-pending-600);
+  --tooltip-bg-success: var(--color-dark-success-600);
+  --tooltip-bg-danger: var(--color-dark-danger-600);
+  --tooltip-bg-base: var(--color-dark-base-950);
+
+  --tooltip-label: var(--color-dark-base-50);
+  /*#endregion ===========================     COMPONENT: TOOLTIP     ============================ */
+
+}
