@@ -52,7 +52,7 @@ const Badge: React.FC<BadgeProps> = ({
   return (
     <div className={baseClasses} style={style} {...props}>
       {leftIcon && <Icon icon={leftIcon} width={iconSize} height={iconSize} />}
-      <span className="">{label}</span>
+      <span className="body-text">{label}</span>
       {rightIcon && <Icon icon={rightIcon} width={iconSize} height={iconSize} />}
     </div>
   );

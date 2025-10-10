@@ -1,390 +1,95 @@
 [
-  {
-    "name": "Afghanistan",
-    "dialCode": "+93",
-    "flag": "emojione-v1:flag-for-afghanistan"
-  },
-  {
-    "name": "Algeria",
-    "dialCode": "+213",
-    "flag": "emojione-v1:flag-for-algeria"
-  },
-  {
-    "name": "Angola",
-    "dialCode": "+244",
-    "flag": "emojione-v1:flag-for-angola"
-  },
-  {
-    "name": "Argentina",
-    "dialCode": "+54",
-    "flag": "emojione-v1:flag-for-argentina"
-  },
-  {
-    "name": "Australia",
-    "dialCode": "+61",
-    "flag": "emojione-v1:flag-for-australia"
-  },
-  {
-    "name": "Bahrain",
-    "dialCode": "+973",
-    "flag": "emojione-v1:flag-for-bahrain"
-  },
-  {
-    "name": "Bangladesh",
-    "dialCode": "+880",
-    "flag": "emojione-v1:flag-for-bangladesh"
-  },
-  {
-    "name": "Belarus",
-    "dialCode": "+375",
-    "flag": "emojione-v1:flag-for-belarus"
-  },
-  {
-    "name": "Bhutan",
-    "dialCode": "+975",
-    "flag": "emojione-v1:flag-for-bhutan"
-  },
-  {
-    "name": "Botswana",
-    "dialCode": "+267",
-    "flag": "emojione-v1:flag-for-botswana"
-  },
-  {
-    "name": "Brazil",
-    "dialCode": "+55",
-    "flag": "emojione-v1:flag-for-brazil"
-  },
-  {
-    "name": "Cameroon",
-    "dialCode": "+237",
-    "flag": "emojione-v1:flag-for-cameroon"
-  },
+  { "name": "Afghanistan", "dialCode": "+93", "flag": "emojione-v1:flag-for-afghanistan"},
+  { "name": "Algeria", "dialCode": "+213", "flag": "emojione-v1:flag-for-algeria"},
+  { "name": "Angola", "dialCode": "+244", "flag": "emojione-v1:flag-for-angola"},
+  { "name": "Argentina", "dialCode": "+54", "flag": "emojione-v1:flag-for-argentina"},
+  { "name": "Australia", "dialCode": "+61", "flag": "emojione-v1:flag-for-australia"},
+  { "name": "Bahrain", "dialCode": "+973", "flag": "emojione-v1:flag-for-bahrain"},
+  { "name": "Bangladesh", "dialCode": "+880", "flag": "emojione-v1:flag-for-bangladesh"},
+  { "name": "Belarus", "dialCode": "+375", "flag": "emojione-v1:flag-for-belarus"},
+  { "name": "Bhutan", "dialCode": "+975", "flag": "emojione-v1:flag-for-bhutan"},
+  { "name": "Botswana", "dialCode": "+267", "flag": "emojione-v1:flag-for-botswana"},
+  { "name": "Brazil", "dialCode": "+55", "flag": "emojione-v1:flag-for-brazil"},
+  { "name": "Cameroon", "dialCode": "+237", "flag": "emojione-v1:flag-for-cameroon"},
   { "name": "Canada", "dialCode": "+1", "flag": "emojione-v1:flag-for-canada" },
   { "name": "China", "dialCode": "+86", "flag": "emojione-v1:flag-for-china" },
-  {
-    "name": "Congo (DRC)",
-    "dialCode": "+243",
-    "flag": "emojione-v1:flag-for-congo-kinshasa"
-  },
-  {
-    "name": "Congo (Republic)",
-    "dialCode": "+242",
-    "flag": "emojione-v1:flag-for-congo-brazzaville"
-  },
+  { "name": "Congo (DRC)", "dialCode": "+243", "flag": "emojione-v1:flag-for-congo-kinshasa"},
+  { "name": "Congo (Republic)", "dialCode": "+242", "flag": "emojione-v1:flag-for-congo-brazzaville"},
   { "name": "Egypt", "dialCode": "+20", "flag": "emojione-v1:flag-for-egypt" },
-  {
-    "name": "Eswatini",
-    "dialCode": "+268",
-    "flag": "emojione-v1:flag-for-flag-eswatini"
-  },
-  {
-    "name": "Ethiopia",
-    "dialCode": "+251",
-    "flag": "emojione-v1:flag-for-ethiopia"
-  },
+  { "name": "Eswatini", "dialCode": "+268", "flag": "emojione-v1:flag-for-flag-eswatini"},
+  { "name": "Ethiopia", "dialCode": "+251", "flag": "emojione-v1:flag-for-ethiopia"},
   { "name": "Fiji", "dialCode": "+679", "flag": "emojione-v1:flag-for-fiji" },
-  {
-    "name": "France",
-    "dialCode": "+33",
-    "flag": "emojione-v1:flag-for-france"
-  },
-  {
-    "name": "French Polynesia",
-    "dialCode": "+689",
-    "flag": "emojione-v1:flag-for-french-polynesia"
-  },
-  {
-    "name": "Georgia",
-    "dialCode": "+995",
-    "flag": "emojione-v1:flag-for-georgia"
-  },
-  {
-    "name": "Germany",
-    "dialCode": "+49",
-    "flag": "emojione-v1:flag-for-germany"
-  },
+  { "name": "France", "dialCode": "+33", "flag": "emojione-v1:flag-for-france"},
+  { "name": "French Polynesia", "dialCode": "+689", "flag": "emojione-v1:flag-for-french-polynesia"},
+  { "name": "Georgia", "dialCode": "+995", "flag": "emojione-v1:flag-for-georgia"},
+  { "name": "Germany", "dialCode": "+49", "flag": "emojione-v1:flag-for-germany"},
   { "name": "Ghana", "dialCode": "+233", "flag": "emojione-v1:flag-for-ghana" },
   { "name": "India", "dialCode": "+91", "flag": "emojione-v1:flag-for-india" },
-  {
-    "name": "Indonesia",
-    "dialCode": "+62",
-    "flag": "emojione-v1:flag-for-indonesia"
-  },
+  { "name": "Indonesia", "dialCode": "+62", "flag": "emojione-v1:flag-for-indonesia"},
   { "name": "Iran", "dialCode": "+98", "flag": "emojione-v1:flag-for-iran" },
   { "name": "Italy", "dialCode": "+39", "flag": "emojione-v1:flag-for-italy" },
-  {
-    "name": "Ivory Coast",
-    "dialCode": "+225",
-    "flag": "emojione-v1:flag-for-cote-divoire"
-  },
-  {
-    "name": "Jamaica",
-    "dialCode": "+1",
-    "flag": "emojione-v1:flag-for-jamaica"
-  },
+  { "name": "Ivory Coast", "dialCode": "+225", "flag": "emojione-v1:flag-for-cote-divoire"},
+  { "name": "Jamaica", "dialCode": "+1", "flag": "emojione-v1:flag-for-jamaica"},
   { "name": "Japan", "dialCode": "+81", "flag": "emojione-v1:flag-for-japan" },
-  {
-    "name": "Kazakhstan",
-    "dialCode": "+7",
-    "flag": "emojione-v1:flag-for-kazakhstan"
-  },
+  { "name": "Kazakhstan", "dialCode": "+7", "flag": "emojione-v1:flag-for-kazakhstan"},
   { "name": "Kenya", "dialCode": "+254", "flag": "emojione-v1:flag-for-kenya" },
-  {
-    "name": "Kiribati",
-    "dialCode": "+686",
-    "flag": "emojione-v1:flag-for-kiribati"
-  },
+  { "name": "Kiribati", "dialCode": "+686", "flag": "emojione-v1:flag-for-kiribati"},
   { "name": "Libya", "dialCode": "+218", "flag": "emojione-v1:flag-for-libya" },
-  {
-    "name": "Madagascar",
-    "dialCode": "+261",
-    "flag": "emojione-v1:flag-for-madagascar"
-  },
-  {
-    "name": "Malaysia",
-    "dialCode": "+60",
-    "flag": "emojione-v1:flag-for-malaysia"
-  },
-  {
-    "name": "Malawi",
-    "dialCode": "+265",
-    "flag": "emojione-v1:flag-for-malawi"
-  },
+  { "name": "Madagascar", "dialCode": "+261", "flag": "emojione-v1:flag-for-madagascar"},
+  { "name": "Malaysia", "dialCode": "+60", "flag": "emojione-v1:flag-for-malaysia"},
+  { "name": "Malawi", "dialCode": "+265", "flag": "emojione-v1:flag-for-malawi"},
   { "name": "Mali", "dialCode": "+223", "flag": "emojione-v1:flag-for-mali" },
-  {
-    "name": "Marshall Islands",
-    "dialCode": "+692",
-    "flag": "emojione-v1:flag-for-marshall-islands"
-  },
-  {
-    "name": "Mauritius",
-    "dialCode": "+230",
-    "flag": "emojione-v1:flag-for-mauritius"
-  },
-  {
-    "name": "Mexico",
-    "dialCode": "+52",
-    "flag": "emojione-v1:flag-for-mexico"
-  },
-  {
-    "name": "Micronesia",
-    "dialCode": "+691",
-    "flag": "emojione-v1:flag-for-micronesia"
-  },
-  {
-    "name": "Mongolia",
-    "dialCode": "+976",
-    "flag": "emojione-v1:flag-for-mongolia"
-  },
-  {
-    "name": "Morocco",
-    "dialCode": "+212",
-    "flag": "emojione-v1:flag-for-morocco"
-  },
-  {
-    "name": "Mozambique",
-    "dialCode": "+258",
-    "flag": "emojione-v1:flag-for-mozambique"
-  },
-  {
-    "name": "Myanmar",
-    "dialCode": "+95",
-    "flag": "emojione-v1:flag-for-myanmar"
-  },
-  {
-    "name": "Namibia",
-    "dialCode": "+264",
-    "flag": "emojione-v1:flag-for-namibia"
-  },
+  { "name": "Marshall Islands", "dialCode": "+692", "flag": "emojione-v1:flag-for-marshall-islands"},
+  { "name": "Mauritius", "dialCode": "+230", "flag": "emojione-v1:flag-for-mauritius"},
+  { "name": "Mexico", "dialCode": "+52", "flag": "emojione-v1:flag-for-mexico"},
+  { "name": "Micronesia", "dialCode": "+691", "flag": "emojione-v1:flag-for-micronesia"},
+  { "name": "Mongolia", "dialCode": "+976", "flag": "emojione-v1:flag-for-mongolia"},
+  { "name": "Morocco", "dialCode": "+212", "flag": "emojione-v1:flag-for-morocco"},
+  { "name": "Mozambique", "dialCode": "+258", "flag": "emojione-v1:flag-for-mozambique"},
+  { "name": "Myanmar", "dialCode": "+95", "flag": "emojione-v1:flag-for-myanmar"},
+  { "name": "Namibia", "dialCode": "+264", "flag": "emojione-v1:flag-for-namibia"},
   { "name": "Nepal", "dialCode": "+977", "flag": "emojione-v1:flag-for-nepal" },
-  {
-    "name": "Netherlands",
-    "dialCode": "+31",
-    "flag": "emojione-v1:flag-for-netherlands"
-  },
-  {
-    "name": "New Caledonia",
-    "dialCode": "+687",
-    "flag": "emojione-v1:flag-for-new-caledonia"
-  },
-  {
-    "name": "New Zealand",
-    "dialCode": "+64",
-    "flag": "emojione-v1:flag-for-new-zealand"
-  },
-  {
-    "name": "Nigeria",
-    "dialCode": "+234",
-    "flag": "emojione-v1:flag-for-nigeria"
-  },
-  {
-    "name": "Pakistan",
-    "dialCode": "+92",
-    "flag": "emojione-v1:flag-for-pakistan"
-  },
-  {
-    "name": "Papua New Guinea",
-    "dialCode": "+675",
-    "flag": "emojione-v1:flag-for-papua-new-guinea"
-  },
-  {
-    "name": "Philippines",
-    "dialCode": "+63",
-    "flag": "emojione-v1:flag-for-philippines"
-  },
-  {
-    "name": "Poland",
-    "dialCode": "+48",
-    "flag": "emojione-v1:flag-for-poland"
-  },
-  {
-    "name": "Puerto Rico",
-    "dialCode": "+1",
-    "flag": "emojione-v1:flag-for-puerto-rico"
-  },
+  { "name": "Netherlands", "dialCode": "+31", "flag": "emojione-v1:flag-for-netherlands"},
+  { "name": "New Caledonia", "dialCode": "+687", "flag": "emojione-v1:flag-for-new-caledonia"},
+  { "name": "New Zealand", "dialCode": "+64", "flag": "emojione-v1:flag-for-new-zealand"},
+  { "name": "Nigeria", "dialCode": "+234", "flag": "emojione-v1:flag-for-nigeria"},
+  { "name": "Pakistan", "dialCode": "+92", "flag": "emojione-v1:flag-for-pakistan"},
+  { "name": "Papua New Guinea", "dialCode": "+675", "flag": "emojione-v1:flag-for-papua-new-guinea"},
+  { "name": "Philippines", "dialCode": "+63", "flag": "emojione-v1:flag-for-philippines"},
+  { "name": "Poland", "dialCode": "+48", "flag": "emojione-v1:flag-for-poland"},
+  { "name": "Puerto Rico", "dialCode": "+1", "flag": "emojione-v1:flag-for-puerto-rico"},
   { "name": "Qatar", "dialCode": "+974", "flag": "emojione-v1:flag-for-qatar" },
   { "name": "Russia", "dialCode": "+7", "flag": "emojione-v1:flag-for-russia" },
-  {
-    "name": "Rwanda",
-    "dialCode": "+250",
-    "flag": "emojione-v1:flag-for-rwanda"
-  },
-  {
-    "name": "Saudi Arabia",
-    "dialCode": "+966",
-    "flag": "emojione-v1:flag-for-saudi-arabia"
-  },
-  {
-    "name": "Senegal",
-    "dialCode": "+221",
-    "flag": "emojione-v1:flag-for-senegal"
-  },
-  {
-    "name": "Seychelles",
-    "dialCode": "+248",
-    "flag": "emojione-v1:flag-for-seychelles"
-  },
-  {
-    "name": "Singapore",
-    "dialCode": "+65",
-    "flag": "emojione-v1:flag-for-singapore"
-  },
-  {
-    "name": "Solomon Islands",
-    "dialCode": "+677",
-    "flag": "emojione-v1:flag-for-solomon-islands"
-  },
-  {
-    "name": "South Africa",
-    "dialCode": "+27",
-    "flag": "emojione-v1:flag-for-south-africa"
-  },
-  {
-    "name": "South Korea",
-    "dialCode": "+82",
-    "flag": "emojione-v1:flag-for-south-korea"
-  },
-  {
-    "name": "South Sudan",
-    "dialCode": "+211",
-    "flag": "twemoji:flag-south-sudan"
-  },
+  { "name": "Rwanda", "dialCode": "+250", "flag": "emojione-v1:flag-for-rwanda"},
+  { "name": "Saudi Arabia", "dialCode": "+966", "flag": "emojione-v1:flag-for-saudi-arabia"},
+  { "name": "Senegal", "dialCode": "+221", "flag": "emojione-v1:flag-for-senegal"},
+  { "name": "Seychelles", "dialCode": "+248", "flag": "emojione-v1:flag-for-seychelles"},
+  { "name": "Singapore", "dialCode": "+65", "flag": "emojione-v1:flag-for-singapore"},
+  { "name": "Solomon Islands", "dialCode": "+677", "flag": "emojione-v1:flag-for-solomon-islands"},
+  { "name": "South Africa", "dialCode": "+27", "flag": "emojione-v1:flag-for-south-africa"},
+  { "name": "South Korea", "dialCode": "+82", "flag": "emojione-v1:flag-for-south-korea"},
+  { "name": "South Sudan", "dialCode": "+211", "flag": "twemoji:flag-south-sudan"},
   { "name": "Spain", "dialCode": "+34", "flag": "emojione-v1:flag-for-spain" },
-  {
-    "name": "Sri Lanka",
-    "dialCode": "+94",
-    "flag": "emojione-v1:flag-for-sri-lanka"
-  },
+  { "name": "Sri Lanka", "dialCode": "+94", "flag": "emojione-v1:flag-for-sri-lanka"},
   { "name": "Sudan", "dialCode": "+249", "flag": "emojione-v1:flag-for-sudan" },
-  {
-    "name": "Sweden",
-    "dialCode": "+46",
-    "flag": "emojione-v1:flag-for-sweden"
-  },
-  {
-    "name": "Switzerland",
-    "dialCode": "+41",
-    "flag": "emojione-v1:flag-for-switzerland"
-  },
-  {
-    "name": "Tanzania",
-    "dialCode": "+255",
-    "flag": "emojione-v1:flag-for-tanzania"
-  },
-  {
-    "name": "Thailand",
-    "dialCode": "+66",
-    "flag": "emojione-v1:flag-for-thailand"
-  },
+  { "name": "Sweden", "dialCode": "+46", "flag": "emojione-v1:flag-for-sweden"},
+  { "name": "Switzerland", "dialCode": "+41", "flag": "emojione-v1:flag-for-switzerland"},
+  { "name": "Tanzania", "dialCode": "+255", "flag": "emojione-v1:flag-for-tanzania"},
+  { "name": "Thailand", "dialCode": "+66", "flag": "emojione-v1:flag-for-thailand"},
   { "name": "Tonga", "dialCode": "+676", "flag": "emojione-v1:flag-for-tonga" },
-  {
-    "name": "Trinidad & Tobago",
-    "dialCode": "+1",
-    "flag": "emojione-v1:flag-for-trinidad-and-tobago"
-  },
-  {
-    "name": "Tunisia",
-    "dialCode": "+216",
-    "flag": "emojione-v1:flag-for-tunisia"
-  },
-  {
-    "name": "Turkey",
-    "dialCode": "+90",
-    "flag": "emojione-v1:flag-for-turkey"
-  },
-  {
-    "name": "Tuvalu",
-    "dialCode": "+688",
-    "flag": "emojione-v1:flag-for-tuvalu"
-  },
-  {
-    "name": "Uganda",
-    "dialCode": "+256",
-    "flag": "emojione-v1:flag-for-uganda"
-  },
-  {
-    "name": "Ukraine",
-    "dialCode": "+380",
-    "flag": "emojione-v1:flag-for-ukraine"
-  },
-  {
-    "name": "United Arab Emirates (UAE)",
-    "dialCode": "+971",
-    "flag": "emojione-v1:flag-for-united-arab-emirates"
-  },
-  {
-    "name": "United Kingdom (UK)",
-    "dialCode": "+44",
-    "flag": "emojione-v1:flag-for-united-kingdom"
-  },
-  {
-    "name": "United States of America (USA)",
-    "dialCode": "+1",
-    "flag": "emojione-v1:flag-for-united-states"
-  },
-  {
-    "name": "Uzbekistan",
-    "dialCode": "+998",
-    "flag": "emojione-v1:flag-for-uzbekistan"
-  },
-  {
-    "name": "Vanuatu",
-    "dialCode": "+678",
-    "flag": "emojione-v1:flag-for-vanuatu"
-  },
-  {
-    "name": "Vietnam",
-    "dialCode": "+84",
-    "flag": "emojione-v1:flag-for-vietnam"
-  },
-  {
-    "name": "Zambia",
-    "dialCode": "+260",
-    "flag": "emojione-v1:flag-for-zambia"
-  },
-  {
-    "name": "Zimbabwe",
-    "dialCode": "+263",
-    "flag": "emojione-v1:flag-for-zimbabwe"
+  { "name": "Trinidad & Tobago", "dialCode": "+1", "flag": "emojione-v1:flag-for-trinidad-and-tobago"},
+  { "name": "Tunisia", "dialCode": "+216", "flag": "emojione-v1:flag-for-tunisia"},
+  { "name": "Turkey", "dialCode": "+90", "flag": "emojione-v1:flag-for-turkey"},
+  { "name": "Tuvalu", "dialCode": "+688", "flag": "emojione-v1:flag-for-tuvalu"},
+  { "name": "Uganda", "dialCode": "+256", "flag": "emojione-v1:flag-for-uganda"},
+  { "name": "Ukraine", "dialCode": "+380", "flag": "emojione-v1:flag-for-ukraine"},
+  { "name": "United Arab Emirates (UAE)", "dialCode": "+971", "flag": "emojione-v1:flag-for-united-arab-emirates"},
+  { "name": "United Kingdom (UK)", "dialCode": "+44", "flag": "emojione-v1:flag-for-united-kingdom"},
+  { "name": "United States of America (USA)", "dialCode": "+1", "flag": "emojione-v1:flag-for-united-states"},
+  { "name": "Uzbekistan", "dialCode": "+998", "flag": "emojione-v1:flag-for-uzbekistan"},
+  { "name": "Vanuatu", "dialCode": "+678", "flag": "emojione-v1:flag-for-vanuatu"},
+  { "name": "Vietnam", "dialCode": "+84", "flag": "emojione-v1:flag-for-vietnam"},
+  { "name": "Zambia", "dialCode": "+260", "flag": "emojione-v1:flag-for-zambia"},
+  { "name": "Zimbabwe", "dialCode": "+263", "flag": "emojione-v1:flag-for-zimbabwe"
   }
 ]

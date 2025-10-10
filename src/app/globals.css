@@ -4,20 +4,19 @@
 @import "./styles/theme.css";
 @import "./styles/typography.css";
 
-/* @custom-variant dark {(&:where(.dark, .dark *) {})}; */
-@custom-variant dark (&:where(.dark, .dark *));
+/* Ensure smooth theme transitions */
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
 
 body {
   /* Fonts */
   font-family: "Bilva System", sans-serif;
-  font-feature-settings: "kern" 0;
-  background-color: var(--color-base-50);
-}
-
-.dark {
-  body {
-    background-color: var(--color-dark-base-50);
-  }
+  font-feature-settings: "frac";
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 * {
